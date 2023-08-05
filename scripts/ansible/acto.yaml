@@ -17,3 +17,4 @@
         repo: https://github.com/xlab-uiuc/acto.git
         version: sosp-ae
         recursive: yes
+        depth: 1
