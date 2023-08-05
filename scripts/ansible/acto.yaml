@@ -9,7 +9,6 @@
       ansible.builtin.file:
         path: "{{ home.stdout }}/workdir/acto"
         state: directory
-        depth: 1
 
     - name: clone Acto repo
       become: false
@@ -18,3 +17,4 @@
         repo: https://github.com/xlab-uiuc/acto.git
         version: sosp-ae
         recursive: yes
+        depth: 1
