@@ -22,7 +22,7 @@
         # Implication: this script should happen after acto.yml
         requirements: "{{ home.stdout }}/workdir/acto/requirements.txt"
         state: present
-        register: result
-        retries: 5
-        delay: 10
-        until: result is not failed
+      register: result
+      retries: 5
+      delay: 10
+      until: result is not failed
