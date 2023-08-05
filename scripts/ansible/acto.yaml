@@ -9,6 +9,7 @@
       ansible.builtin.file:
         path: "{{ home.stdout }}/workdir/acto"
         state: directory
+        depth: 1
 
     - name: clone Acto repo
       become: false
