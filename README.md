@@ -67,3 +67,4 @@ Or if you imported the profile by yourself in previous sections:
     Looks like a bug of CloudLab? A workaround is to also hardwire everything in the default branch.
 
 - Git practice: let's always rebase `c8220` onto the tip of `main`/`c6420`?
+- FIXME: startup scripts get run every time the machine (re)boots, even if they have been run before.
