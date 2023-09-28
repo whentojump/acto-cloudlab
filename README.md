@@ -42,6 +42,7 @@ The `main` branch of this repository always uses `c6420` as the hardware type. I
 
 - `c6420` (the same as `main`): https://www.cloudlab.us/p/Sieve-Acto/acto-cloudlab?refspec=refs/heads/c6420
 - `c8220`: https://www.cloudlab.us/p/Sieve-Acto/acto-cloudlab?refspec=refs/heads/c8220
+- `c6320`: https://www.cloudlab.us/p/Sieve-Acto/acto-cloudlab?refspec=refs/heads/c6320
 
 Or if you imported the profile by yourself in previous sections:
 
